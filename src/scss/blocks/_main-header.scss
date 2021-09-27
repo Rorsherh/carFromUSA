@@ -1,5 +1,105 @@
 .main-header {
-  color: red;
-  text-decoration: underline;
-  padding-top: 120px;
+  color: #fff;
+  background: url("../img/header-bg.jpg") center center/cover no-repeat;
+  background-color: #21062a;
+  min-height: 700px;
+  &__center-box {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 1px solid green;
+  }
+  &__top {
+    padding: 47px 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+  }
+  &__tel {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &__content {
+    position: relative;
+    padding-bottom: 119px;
+  }
+
+  &__title {
+    font-size: 72px;
+    line-height: 107px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    margin-bottom: -10px;
+  }
+  &__subtitle {
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+  }
+  &__text {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  &__call {
+    display: inline-block;
+    padding: 14.5px 54.5px;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #5a0d67;
+  }
+
+  &__social-list {
+    display: flex;
+    max-width: 125px;
+    justify-content: space-between;
+    list-style: none;
+    margin: 70px 0 0 66px;
+    padding: 0;
+  }
+  &__social-link {
+    display: block;
+    width: 25px;
+    height: 25px;
+    font-size: 0;
+    line-height: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    &:hover {
+      transform: scale(110%);
+    }
+  }
+  &__social-link--ins {
+    background-image: url("../icons/instagram.svg");
+  }
+  &__social-link--tel {
+    background-image: url("../icons/telegram.svg");
+  }
+  &__social-link--wat {
+    background-image: url("../icons/whatsapp.svg");
+  }
+  &__social-link--face {
+    background-image: url("../icons/facebook.svg");
+  }
+
+  &__promo-img {
+    position: absolute;
+    right: 0;
+    bottom: -200px;
+  }
 }
