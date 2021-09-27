@@ -68,7 +68,11 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
-    background-color: #5a0d67; }
+    background-color: #5a0d67;
+    transition: all 0.4s; }
+    .main-header__call:hover {
+      color: #5a0d67;
+      background-color: #ffffff; }
   .main-header__social-list {
     display: -ms-flexbox;
     display: flex;
@@ -86,7 +90,8 @@ body {
     line-height: 0;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: contain; }
+    background-size: contain;
+    transition: all 0.2s; }
     .main-header__social-link:hover {
       -webkit-transform: scale(110%);
               transform: scale(110%); }
