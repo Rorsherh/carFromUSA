@@ -3,7 +3,6 @@
     max-width: 1230px;
     margin: 0 auto;
     padding: 269px 15px 15px;
-    outline: 1px solid blue;
   }
   &__title {
     font-family: Oswald;
@@ -187,6 +186,9 @@
   }
   .services__title {
     line-height: 38px;
+    & span::before {
+      display: none;
+    }
   }
   .services__QA-item {
     margin-bottom: 55px;
