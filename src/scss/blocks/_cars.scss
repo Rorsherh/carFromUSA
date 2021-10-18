@@ -75,6 +75,8 @@
       background-color: #5a0d67;
     }
   }
+
+  // стили стороннего слайдера конец
   &__img {
     margin-bottom: 23px;
     max-width: 100%;
@@ -101,12 +103,23 @@
   .cars__center-box {
     padding-top: 20px;
   }
-  .cars__carousel {
-    max-width: 390px;
-    margin: 0 auto;
-  }
+
   .cars__title span {
     display: none;
+  }
+
+  .cars__carousel {
+    max-width: 690px;
+    margin: 0 auto;
+  }
+
+  .cars__item-box {
+    max-width: 690px;
+  }
+
+  .cars__img {
+    width: 95%;
+    height: auto;
   }
 
   .cars .slick-slider-one .slick-dots button {
