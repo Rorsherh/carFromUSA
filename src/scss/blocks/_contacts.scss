@@ -3,13 +3,11 @@
     max-width: 1230px;
     margin: 0 auto;
     padding: 80px 15px 0px;
-    outline: 1px solid orange;
     display: flex;
   }
   &__date {
     flex: 0 3 600px;
     padding-top: 20px;
-    outline: 1px solid orange;
   }
   &__title {
     font-style: normal;
