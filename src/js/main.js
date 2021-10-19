@@ -1,9 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     $('.slick-slider-one').slick({
         infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
+        autoplay: true,
         autoplaySpeed: 3000,
+        slidesToShow: 3,
+        slidesToScroll: 1,        
         arrows: false,
         dots: true,
         responsive: [
